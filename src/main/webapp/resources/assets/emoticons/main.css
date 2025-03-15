@@ -1,0 +1,350 @@
+DIV#content FORM DIV,
+DIV#content FORM TD,
+DIV#content FORM UL,
+DIV#content FORM OL,
+DIV#content FORM INPUT,
+DIV#content FORM P {
+  color: black;
+  font-weight: normal;
+  font-family: Verdana, Arial, sans-serif;
+}
+DIV#content FORM P {
+  margin: 16px 0;
+}
+DIV#content FORM H3,
+DIV#content FORM H4 {
+  font-family: Verdana, Arial, sans-serif;
+}
+DIV#content FORM DIV.inner {
+  padding: 1px 0 20px;
+  min-height: 320px;
+}
+
+DIV#content TD.people {
+  background-color:     #ddd;
+  background-image:     url(/image/ip/people.gif);
+  background-position:  left bottom;
+  background-repeat:    no-repeat;
+}
+
+DIV#content LI {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+DIV#content TABLE, DIV#content TD {
+  background-color: transparent;
+}
+
+DIV.ipquesRealistic,
+DIV.legendRealistic,
+DIV#content TD.chartRealistic {
+  background:     #B8D9C3;
+}
+DIV.ipquesRealistic2 {
+  background:     #A3BFAC;
+}
+DIV.graphRealistic_dim {
+  background:     #7BBC83;
+}
+DIV.graphRealistic,
+DIV.graphRealistic_sel,
+DIV.graphRealistic_ovr {
+  background:     #00802A;
+}
+
+DIV.ipquesInvestigative,
+DIV.legendInvestigative,
+DIV#content TD.chartInvestigative {
+  background:     #E5BED3;
+}
+DIV.ipquesInvestigative2 {
+  background:     #C9A7BA;
+}
+DIV.graphInvestigative_dim {
+  background:     #AD6490;
+}
+DIV.graphInvestigative,
+DIV.graphInvestigative_sel,
+DIV.graphInvestigative_ovr {
+  background:     #800044;
+}
+
+DIV.ipquesArtistic,
+DIV.legendArtistic,
+DIV#content TD.chartArtistic {
+  background:     #FCFCB3;
+}
+DIV.ipquesArtistic2 {
+  background:     #E2E2A3;
+}
+DIV.graphArtistic_dim {
+  background:     #AAAA5F;
+}
+DIV.graphArtistic,
+DIV.graphArtistic_sel,
+DIV.graphArtistic_ovr {
+  background:     #727200;
+}
+
+DIV.ipquesSocial,
+DIV.legendSocial,
+DIV#content TD.chartSocial {
+  background:     #C6B8D9;
+}
+DIV.ipquesSocial2 {
+  background:     #AFA3BF;
+}
+DIV.graphSocial_dim {
+  background:     #7E64B8;
+}
+DIV.graphSocial,
+DIV.graphSocial_sel,
+DIV.graphSocial_ovr {
+  background:     #350080;
+}
+
+DIV.ipquesEnterprising,
+DIV.legendEnterprising,
+DIV#content TD.chartEnterprising {
+  background:     #F2D3B5;
+}
+DIV.ipquesEnterprising2 {
+  background:     #D6BCA2;
+}
+DIV.graphEnterprising_dim {
+  background:     #B78F66;
+}
+DIV.graphEnterprising,
+DIV.graphEnterprising_sel,
+DIV.graphEnterprising_ovr {
+  background:     #984C00;
+}
+
+DIV.ipquesConventional,
+DIV.legendConventional,
+DIV#content TD.chartConventional {
+  background:     #BFDAED;
+}
+DIV.ipquesConventional2 {
+  background:     #A9C1D1;
+}
+DIV.graphConventional_dim {
+  background:     #6F9FBB;
+}
+DIV.graphConventional,
+DIV.graphConventional_sel,
+DIV.graphConventional_ovr {
+  background:     #005580;
+}
+
+DIV#content TD.chartRealistic_sel,
+DIV#content TD.chartInvestigative_sel,
+DIV#content TD.chartArtistic_sel,
+DIV#content TD.chartSocial_sel,
+DIV#content TD.chartEnterprising_sel,
+DIV#content TD.chartConventional_sel,
+DIV#content DIV.legendRealistic_sel,
+DIV#content DIV.legendInvestigative_sel,
+DIV#content DIV.legendArtistic_sel,
+DIV#content DIV.legendSocial_sel,
+DIV#content DIV.legendEnterprising_sel,
+DIV#content DIV.legendConventional_sel
+{
+  background:     #003366;
+  color:          #DDDDDD;
+}
+
+DIV#content TD.chartRealistic_ovr,
+DIV#content TD.chartInvestigative_ovr,
+DIV#content TD.chartArtistic_ovr,
+DIV#content TD.chartSocial_ovr,
+DIV#content TD.chartEnterprising_ovr,
+DIV#content TD.chartConventional_ovr,
+DIV#content DIV.legendRealistic_ovr,
+DIV#content DIV.legendInvestigative_ovr,
+DIV#content DIV.legendArtistic_ovr,
+DIV#content DIV.legendSocial_ovr,
+DIV#content DIV.legendEnterprising_ovr,
+DIV#content DIV.legendConventional_ovr
+{
+  background:     #888888;
+  color:          white;
+}
+
+DIV.graphRealistic_ovr,
+DIV.graphInvestigative_ovr,
+DIV.graphArtistic_ovr,
+DIV.graphSocial_ovr,
+DIV.graphEnterprising_ovr,
+DIV.graphConventional_ovr {
+  border:         solid 4px #888888;
+  border-top:     none;
+  border-bottom:  none;
+}
+
+
+TD.chartRealistic, TD.chartRealistic_sel, TD.chartRealistic_ovr,
+TD.chartInvestigative, TD.chartInvestigative_sel, TD.chartInvestigative_ovr,
+TD.chartArtistic, TD.chartArtistic_sel, TD.chartArtistic_ovr,
+TD.chartSocial, TD.chartSocial_sel, TD.chartSocial_ovr,
+TD.chartEnterprising, TD.chartEnterprising_sel, TD.chartEnterprising_ovr,
+TD.chartConventional, TD.chartConventional_sel, TD.chartConventional_ovr {
+  vertical-align: bottom;
+  border-bottom: solid 2px #ddd;
+  padding: 4px 10px;
+}
+
+
+DIV.ipquesRealistic,
+DIV.ipquesInvestigative,
+DIV.ipquesArtistic,
+DIV.ipquesSocial,
+DIV.ipquesEnterprising,
+DIV.ipquesConventional,
+DIV.ipquesRealistic2,
+DIV.ipquesInvestigative2,
+DIV.ipquesArtistic2,
+DIV.ipquesSocial2,
+DIV.ipquesEnterprising2,
+DIV.ipquesConventional2 {
+  color:          black;
+  padding:        0;
+  min-height: 22px;
+  line-height: 22px;
+  margin-left: 48px;
+  white-space: nowrap;
+  width: 704px;
+}
+
+DIV.ipquesRealistic2,
+DIV.ipquesInvestigative2,
+DIV.ipquesArtistic2,
+DIV.ipquesSocial2,
+DIV.ipquesEnterprising2,
+DIV.ipquesConventional2 {
+  margin-bottom:    4px;
+}
+
+DIV.statusbar {
+  font-size:        13px;
+  height:           32px;
+  overflow:         hidden;
+  line-height:      32px;
+  padding:          0 0 0 48px;
+  margin:           0 0 16px;
+}
+
+DIV#content FORM INPUT.link {
+  font-family:      Verdana, Arial, sans-serif;
+  font-size:        13px;
+  background-color: transparent;
+  color:            #0000ff;
+  text-decoration:  underline;
+  border:           none;
+  padding:          0;
+  margin:           0;
+  cursor:           pointer;
+  overflow:         visible;    /* fixes IE width issue */
+}
+
+TD.reportrtd, TD.report2ed {
+  color:            #048 !important;
+  font-family:      Arial, Helvetica, sans-serif !important;
+}
+
+DIV#content FORM DIV.navbar {
+  background-color: #eee;
+  color:            #888;
+  padding:          0;
+  text-align:       center;
+}
+
+TABLE.navbar {
+  margin:         0;
+  width:          100%;
+}
+
+DIV#content FORM TABLE.navbar TD {
+  text-align:     center;
+  vertical-align: middle;
+  color:          #468;
+  width:          140px;
+  padding:        16px 8px;
+  border-bottom:  solid 1px #aaa;
+  background-color: #eee;
+}
+
+DIV#content FORM TABLE.navbar TD.enabled:hover,
+DIV#content FORM TABLE.navbar TD.enabled_hover,
+DIV#content FORM TABLE.navbar TD.current:hover,
+DIV#content FORM TABLE.navbar TD.current_hover
+{
+  color:          blue;
+  text-decoration: underline;
+  cursor:         pointer;
+}
+
+DIV#content FORM TABLE.navbar TD SPAN.num {
+  background-color: #468;
+  color:            #eee;
+  padding:          2px 4px;
+  font-weight:      bold;
+}
+
+DIV#content FORM TABLE.navbar TD.enabled:hover SPAN.num,
+DIV#content FORM TABLE.navbar TD.enabled_hover SPAN.num,
+DIV#content FORM TABLE.navbar TD.current:hover SPAN.num,
+DIV#content FORM TABLE.navbar TD.current_hover SPAN.num
+{
+  background-color: blue;
+  text-decoration:  none;
+}
+
+DIV#content FORM TABLE.navbar TD.disabled,
+DIV#content FORM TABLE.navbar TD.disabled:hover,
+DIV#content FORM TABLE.navbar TD.disabled_hover
+{
+  color:          #aaa;
+  text-decoration: none;
+  cursor:         default;
+}
+
+DIV#content FORM TABLE.navbar TD.disabled SPAN.num,
+DIV#content FORM TABLE.navbar TD.disabled:hover SPAN.num,
+DIV#content FORM TABLE.navbar TD.disabled_hover SPAN.num
+{
+  background-color: #aaa;
+}
+
+DIV#content FORM TABLE.navbar TD.current,
+DIV#content FORM TABLE.navbar TD.current_hover
+{
+  color:          #048;
+  border-left:    solid 1px #aaa;
+  border-right:   solid 1px #aaa;
+  border-bottom:  solid 1px #ddd;
+  background-color: #fff;
+  background-image: url(/shared/image/header_gradient.gif);
+  background-position: center bottom;
+  background-repeat: repeat-x;
+}
+
+
+
+DIV#content FORM TABLE.navbar TD.current SPAN.num,
+DIV#content FORM TABLE.navbar TD.current_hover SPAN.num
+{
+  background-color: #048;
+}
+
+DIV#content FORM UL.queshelp LI {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+DIV#content FORM H3 {
+  border-top: none;
+  padding-top: 0;
+}
+  

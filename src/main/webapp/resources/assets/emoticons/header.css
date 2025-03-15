@@ -1,0 +1,183 @@
+DIV#content DIV#menubarb LI, DIV#content DIV#menubar LI,
+DIV#menubarb LI, DIV#menubarb LI A,
+DIV#menubar LI, DIV#menubar LI A {
+  display: block;
+  font-family: Verdana;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 11px;
+  line-height: 14px;
+  padding: 0;
+  margin: 0;
+  text-indent: -10px;
+}
+DIV#menubar LI, DIV#menubarb LI {
+  border-left: solid 1px #888;
+  border-right: solid 1px #888;
+}
+DIV#menubarb LI A, DIV#menubarb LI A:link, DIV#menubarb LI A:visited,
+DIV#menubar LI A, DIV#menubar LI A:link, DIV#menubar LI A:visited {
+  padding: 3px 15px 3px 25px;
+  background-color: #eee;
+  color: #000;
+}  
+DIV#menubarb LI A:active, DIV#menubarb LI A:hover, DIV#menubarb LI A:focus,
+DIV#menubar LI A:active, DIV#menubar LI A:hover, DIV#menubar LI A:focus {
+  background-color: #888;
+  color: #fff;
+}
+#menubar UL {
+  position: absolute;
+  width: 224px;
+  padding: 0 0 10px 0;
+  margin: 0;
+  border: none;
+  left: 0;
+  top: 24px;
+  border-top: solid 3px #048;
+  overflow: hidden;
+  background: url(image/newui/gray_mini2.gif) bottom left no-repeat;
+}
+#menubarb UL {
+  position: absolute;
+  width: 224px;
+  padding: 10px 0 0 0;
+  margin: 0;
+  border: none;
+  left: 0;
+  bottom: 24px;
+  border-bottom: solid 3px #048;
+  overflow: hidden;
+  background: url(image/newui/gray_mini3.gif) top left no-repeat;
+}
+#menubar, #menubarb {
+  background: url(image/newui/menu_bg.png) top left no-repeat;
+  height: 24px;
+  width: 914px;
+  margin: 0 auto;
+  clear: both;
+  position: relative;
+  padding: 0 12px;
+}
+#menubarb {
+  margin-top: 14px;
+}
+#menubar DIV, #menubarb DIV {
+  height: 24px;
+  line-height: 24px;
+  position: relative;
+  float: left;
+}
+
+.popupbutton_over, .popupbutton_active, .popupbutton_out {
+  display: block;
+  float: left;
+  height: 24px;
+  line-height: 24px;
+  padding: 0 15px;
+  font-family: Verdana;
+  font-size: 11px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.popupbutton_out {
+  color: #048 !important;
+}
+.popupbutton_over, .popupbutton_active, .popupbutton_out:hover {
+  background-color: #048;
+  background: url(image/newui/menu_ovr.png) bottom left repeat-x;
+  color: #fff !important;
+}
+#menubar #popup_network_btn, #menubarb #bpopup_network_btn, #menubar #popup_share_btn, #menubarb #bpopup_share_btn {
+  float: right;
+}
+#menubar #popup_network_menu, #menubarb #bpopup_network_menu, #menubar #popup_share_menu, #menubarb #bpopup_share_menu {
+  left: auto;
+  right: 0;
+}
+DIV#foot {
+  width: 938px;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+
+A#skipnav:focus {
+  padding: 4px !important;
+  left: 0 !important;
+  width: auto !important;
+  height: auto !important;
+}
+
+@media print {
+#menubar, #menubarb, #foot, #head {
+  display:          none;
+}
+#headprint {
+  width: 950px;
+  display:          block !important;
+}
+#footprint {
+  display: block !important;
+}
+}
+
+
+DIV.ftest {
+  width: 938px;
+  padding: 0;
+  margin: 0;
+}
+DIV.ftest DIV.block {
+  float: left;
+  position: relative;
+  margin: 0;
+  margin-left: 19px;
+  padding: 20px 20px 5px;
+  width: 260px;
+  color: #333;
+  text-align: center;  
+}
+DIV.ftest DIV.block DIV {
+  font-size: 11px;
+  font-family: Verdana;
+  color: black;
+  line-height: 18px;
+}
+DIV.ftest DIV.block:first-child {
+  margin-left: 0;
+}
+DIV.ftest A {
+  text-decoration: none;
+}
+DIV.ftest A:hover {
+  text-decoration: underline;
+}
+
+DIV.ftest DIV.block DIV.imgline {
+  line-height: 24px;
+}
+DIV.ftest .imgwrap IMG {
+  padding-top: 4px;
+}
+DIV.ftest IMG {
+  vertical-align: top;
+}
+
+DIV.ftest DIV.block DIV.bubblepop_content {
+  padding: 20px 30px 40px 25px;
+}
+DIV.ftest DIV.block DIV.bubblepop_content DIV,
+DIV.ftest DIV.block DIV.bubblepop_content P {
+  text-align: left;
+  line-height: 1.3em;
+  font-size: 11px;
+  font-family: Verdana;
+  color: black;
+}
+
+.cite_popup {
+  width: 480px;
+}
+.cite_popup .cite_url {
+  word-wrap: break-word;
+}

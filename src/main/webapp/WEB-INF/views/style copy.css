@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+@import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,900);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background-color: #161d31; */
+
+  font-family: "FontAwesome";
+
+  /* font-family: 'Cinzel Decorative', cursive; */
+}
+
+.side li {
+  padding: 10px;
+  background: gray;
+  width: 200px;
+  border-bottom: 1px solid #ebe9f1;
+  list-style: none;
+}
+
+.side li:hover {
+  background: red;
+}
+
+.menu {
+  background: black;
+  height: 9vh;
+}
+
+.w2 {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1160px;
+  list-style: none;
+
+  display: flex;
+}
+.question {
+  background: #fff;
+  padding: 40px 0 0 0;
+  position: relative;
+  float: left;
+  width: 100%;
+}
+.question-number {
+  float: left;
+  width: 100px;
+  text-align: center;
+}
+
+.que {
+  margin-left: 100px;
+}
+
+.que h4 {
+  line-height: 27px;
+  color: #19171a;
+  font-weight: bold;
+  white-space: -moz-pre-space;
+  white-space: pre-line;
+}
+
+h4 {
+  font-size: 18px;
+
+  font-weight: normal;
+  color: #19171a;
+  text-rendering: optimizeLegibility;
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+
+.que .question-details .options li {
+  overflow: hidden;
+  padding: 16px 60px 16px 0;
+  background: #fff;
+  border: 1px solid #dadada;
+  cursor: pointer;
+  position: relative;
+
+  margin: 10px 0px;
+}
+
+/* .que li:first-child {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.que li:last-child {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+} */
+
+.que li{
+  border-radius: 6px;
+}
+
+.option {
+  width: 50px;
+  min-height: 40px;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: #000013;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  line-height: 27px;
+  font-weight: bold;
+  padding-top: 14px;
+}
+
+.question-text {
+  margin-left: 48px;
+  font-weight: normal;
+  position: relative;
+  font-size: 18px;
+  color: #4a4548;
+  line-height: 22px;
+  display: table;
+  height: 24px;
+}
+.user-actions {
+  margin-top: 20px;
+  margin-left: 100px;
+
+  text-align: end;
+}
+
+.user-actions a {
+  text-decoration: none;
+}
+.user-actions .btn {
+  color: #fff;
+
+  /* color: rgb(67, 3, 150); */
+
+  outline: none;
+  min-width: 136px;
+  margin-left: 13px;
+  text-transform: capitalize;
+  border: 0;
+  font-size: 18px;
+  line-height: 18px;
+  padding: 7px 10px;
+  font-weight: bold;
+
+  border-radius: 3px;
+
+  display: inline-block;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  /* white-space: nowrap; */
+}
+
+.button1 {
+  background: #000013;
+
+  border: 1px solid #dadada;
+  color: #c2c2c2;
+}
+.button2 {
+  background: #ae2d43;
+}
+
+.progress-section {
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+
+/* .progress-dot::before{
+  content: "";
+    width: 20px;
+    height: 20px;
+    background-color: #03a9f4;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    margin-top: -8px;
+    right: -1px;
+} */
+
+/* .active{
+  background: aquamarine !important;
+} */
+
+input[type="radio"]:checked + label {
+}
+
+input[type="radio"]:checked + li {
+  background: aqua !important;
+
+}
+
+
+.radio1 {
+  display: none;
+}

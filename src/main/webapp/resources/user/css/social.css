@@ -1,0 +1,91 @@
+  :root {
+            --twitter: #2962ff;
+            --github: #020202;
+            --facebook: #1773ea;
+            --facebook_dark: #3b5693;
+            --google: #d31c1c;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+    
+
+        .social_login {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+            width: 250px;
+            border-radius: 4px;
+            background: white;
+            text-align: center;
+            justify-content: space-around;
+            display: flex;
+            height: 200px;
+        }
+
+        .social_login2 {
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+            justify-content: space-around;
+            display: flex;
+        }
+
+        .social_login2 .icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+/*             background: rgb(221, 37, 37); */
+            /* border-radius: 4px; */
+            border-radius: 50%;
+            padding: 10px;
+            margin: 0 5px;
+            /* margin: auto; */
+/*             color: white; */
+            font-size: 1.5rem;
+            height: 48px;
+            width: 48px;
+            cursor: pointer;
+        }
+
+        .twitter {
+            color: white;
+            background: var(--twitter);
+        }
+        .twitter:hover {
+            box-shadow: 0px 0px 20px 5px #003ad9;
+        }
+
+        .facebook {
+            color: white;
+            background: var(--facebook_dark);
+        }
+        .facebook:hover {
+            box-shadow:0px 0px 20px 5px #0848d9;
+        }
+
+        .github {
+            color: white;
+            background: var(--github);
+        }
+        .github:hover {
+            box-shadow:0px 0px 20px 5px #020202;
+        }
+
+        .google {
+            /* background: var(--google); */
+            background: #1c6ed3;
+            color: white;
+        }
+
+        .google:hover {
+            box-shadow: 0px 0px 20px 5px #2d62cf;
+
+        }

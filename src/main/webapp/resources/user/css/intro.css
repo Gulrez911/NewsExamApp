@@ -1,0 +1,117 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        body {
+            /* background: rgb(77, 80, 128); */
+        }
+
+        nav {
+            height: 70px;
+            /* background: red; */
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+            position: fixed;
+            width: 100%;
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            /* padding: 0 100px; */
+        }
+
+        nav img {
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+            /* padding-left: 15px; */
+        }
+
+        nav .logo {
+            font-size: 2rem;
+        }
+
+        nav .profile {
+            display: flex;
+            align-items: center;
+
+            /* margin-left: 27%; */
+        }
+
+        nav .profile span {
+            padding-right: 15px;
+            font-size: 1.2rem;
+        }
+
+        .container {
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            align-items: center;
+            justify-content: center;
+            /* display: flex; */
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+            transform: translate(-50%, -50%);
+            width: 450px;
+        }
+
+        .container .test_start {
+            padding: 30px;
+        }
+
+        .container .action .btn_start {
+       width: 100%;
+            background: rgb(255, 115, 0);
+            color: white;
+            padding: 13px 20px;
+            border-radius: 4px;
+            font-size: 1.4rem;
+            cursor: pointer;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container .action .btn_start:hover {
+            border: 1px solid rgb(255, 115, 0);
+            background: white;
+            color: rgb(255, 115, 0);
+        }
+
+        .container .action {
+            padding: 20px 0;
+        }
+
+        .test_start .test_info .test_name {
+            font-size: 1.4rem;
+            font-weight: 900;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .test_details {
+            font-size: 1.1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+        }
+        .public{
+            text-align: center;
+            font-size: 1.1rem;
+            /* display: flex; */
+            /* justify-content: space-between; */
+            /* align-items: center; */
+            padding: 10px 0;
+        }
+        .admin_info {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            padding: 5px;
+        }

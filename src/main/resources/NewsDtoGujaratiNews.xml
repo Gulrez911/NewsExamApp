@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<workbook>
+	<worksheet name="TV9gujarati_Gujarati">
+		<section startRow="0" endRow="0" />
+		<loop startRow="1" endRow="1" items="result" var="ass"
+			varType="com.ctet.web.dto.NewsDtoExcel">
+			<section startRow="1" endRow="1">
+				<mapping row="1" col="0">ass.websiteName</mapping>
+				<mapping row="1" col="1">ass.mainLink</mapping>
+				<mapping row="1" col="2">ass.category</mapping>
+				<mapping row="1" col="3">ass.language</mapping>
+
+			</section>
+			<loopbreakcondition>
+				<rowcheck offset="0">
+					<cellcheck offset="0">End Rows:</cellcheck>
+				</rowcheck>
+			</loopbreakcondition>
+		</loop>
+	</worksheet>
+	<worksheet name="BBC_Gujarati">
+		<section startRow="0" endRow="0" />
+		<loop startRow="1" endRow="1" items="result" var="ass"
+			varType="com.ctet.web.dto.NewsDtoExcel">
+			<section startRow="1" endRow="1">
+				<mapping row="1" col="0">ass.websiteName</mapping>
+				<mapping row="1" col="1">ass.mainLink</mapping>
+				<mapping row="1" col="2">ass.category</mapping>
+				<mapping row="1" col="3">ass.language</mapping>
+
+			</section>
+			<loopbreakcondition>
+				<rowcheck offset="0">
+					<cellcheck offset="0">End Rows:</cellcheck>
+				</rowcheck>
+			</loopbreakcondition>
+		</loop>
+	</worksheet>
+	<worksheet name="oneindia_Gujarati">
+		<section startRow="0" endRow="0" />
+		<loop startRow="1" endRow="1" items="result" var="ass"
+			varType="com.ctet.web.dto.NewsDtoExcel">
+			<section startRow="1" endRow="1">
+				<mapping row="1" col="0">ass.websiteName</mapping>
+				<mapping row="1" col="1">ass.mainLink</mapping>
+				<mapping row="1" col="2">ass.category</mapping>
+				<mapping row="1" col="3">ass.language</mapping>
+
+			</section>
+			<loopbreakcondition>
+				<rowcheck offset="0">
+					<cellcheck offset="0">End Rows:</cellcheck>
+				</rowcheck>
+			</loopbreakcondition>
+		</loop>
+	</worksheet>
+ 
+	<worksheet name="ABPlive_Gujarati">
+		<section startRow="0" endRow="0" />
+		<loop startRow="1" endRow="1" items="result" var="ass"
+			varType="com.ctet.web.dto.NewsDtoExcel">
+			<section startRow="1" endRow="1">
+				<mapping row="1" col="0">ass.websiteName</mapping>
+				<mapping row="1" col="1">ass.mainLink</mapping>
+				<mapping row="1" col="2">ass.category</mapping>
+				<mapping row="1" col="3">ass.language</mapping>
+
+			</section>
+			<loopbreakcondition>
+				<rowcheck offset="0">
+					<cellcheck offset="0">End Rows:</cellcheck>
+				</rowcheck>
+			</loopbreakcondition>
+		</loop>
+	</worksheet>
+	<worksheet name="Indianexpress_Gujarati">
+		<section startRow="0" endRow="0" />
+		<loop startRow="1" endRow="1" items="result" var="ass"
+			varType="com.ctet.web.dto.NewsDtoExcel">
+			<section startRow="1" endRow="1">
+				<mapping row="1" col="0">ass.websiteName</mapping>
+				<mapping row="1" col="1">ass.mainLink</mapping>
+				<mapping row="1" col="2">ass.category</mapping>
+				<mapping row="1" col="3">ass.language</mapping>
+
+			</section>
+			<loopbreakcondition>
+				<rowcheck offset="0">
+					<cellcheck offset="0">End Rows:</cellcheck>
+				</rowcheck>
+			</loopbreakcondition>
+		</loop>
+	</worksheet>
+</workbook>

@@ -1,0 +1,152 @@
+.bubblepop_wrapper {
+  display: inline;
+  position: relative;  /* to hold bubblepop_outer element */
+}
+
+.bubblepop_outer {
+  position: absolute;  /* position set in JS */
+  width: 280px;
+  z-index: 100;
+}
+.bubblepop_outer .bg .bg_tl {
+  background: url(popup_tl.png) right bottom no-repeat;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 35px;
+  height: 30px;
+  z-index: 1;
+}
+.bubblepop_outer.inv .bg .bg_tl {
+  height: 40px;
+}
+.bubblepop_outer .bg .bg_tm {
+  background: url(popup_tm.png) center bottom repeat-x;
+  position: absolute;
+  left: 35px;
+  right: 35px;
+  top: 0;
+  height: 30px;
+  z-index: 1;
+}
+.bubblepop_outer.inv .bg .bg_tm {
+  background-image: url(popup_tm_inv.png);
+  height: 40px;
+}
+.bubblepop_outer .bg .bg_tr {
+  background: url(popup_tr.png) left bottom no-repeat;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 35px;
+  height: 30px;
+  z-index: 1;
+}
+.bubblepop_outer.inv .bg .bg_tr {
+  height: 40px;
+}
+.bubblepop_outer .bg .bg_ml {
+  background: url(popup_ml.png) right center repeat-y;
+  position: absolute;
+  left: 0;
+  top: 30px;
+  bottom: 50px;
+  width: 35px;
+  z-index: 1;
+}
+.bubblepop_outer.inv .bg .bg_ml {
+  top: 40px;
+  bottom: 40px;
+}
+.bubblepop_outer .bg .bg_mm {
+  background: white;
+  position: absolute;
+  left: 35px;
+  right: 35px;
+  top: 30px;
+  bottom: 50px;
+  z-index: 1;
+}
+.bubblepop_outer.inv .bg .bg_mm {
+  top: 40px;
+  bottom: 40px;
+}
+.bubblepop_outer .bg .bg_mr {
+  background: url(popup_mr.png) left center repeat-y;
+  position: absolute;
+  right: 0;
+  top: 30px;
+  bottom: 50px;
+  width: 35px;
+  z-index: 1;
+}
+.bubblepop_outer.inv .bg .bg_mr {
+  top: 40px;
+  bottom: 40px;
+}
+.bubblepop_outer .bg .bg_bl {
+  background: url(popup_bl.png) right top no-repeat;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 35px;
+  height: 50px;
+  z-index: 1;
+}
+.bubblepop_outer.inv .bg .bg_bl {
+  height: 40px;
+}
+.bubblepop_outer .bg .bg_bm {
+  background: url(popup_bm.png) center top repeat-x;
+  position: absolute;
+  left: 35px;
+  right: 35px;
+  bottom: 0;
+  height: 50px;
+  z-index: 1;
+}
+.bubblepop_outer.inv .bg .bg_bm {
+  background-image: url(popup_bm_inv.png);
+  height: 40px;
+}
+.bubblepop_outer .bg .bg_br {
+  background: url(popup_br.png) left top no-repeat;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 35px;
+  height: 50px;
+  z-index: 1;
+}
+.bubblepop_outer.inv .bg .bg_br {
+  height: 40px;
+}
+
+.bubblepop_outer .bubblepop_content {
+  position: relative;
+  padding: 16px 25px 36px 18px;
+  z-index: 2;
+  min-height: 30px;
+}
+.bubblepop_outer.inv .bubblepop_content {
+  padding: 26px 25px 26px 18px;
+}
+.bubblepop_outer .close_btn {
+  float: right;
+  background: url(popup_close.png);
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  margin: 0 0 10px 10px;
+}
+.bubblepop_outer .close_btn .label {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  font-size: x-small;
+  background: white;
+  z-index: 50;
+  overflow: hidden;
+}
+

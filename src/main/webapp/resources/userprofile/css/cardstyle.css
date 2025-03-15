@@ -1,0 +1,214 @@
+@charset "ISO-8859-1";
+
+.card {
+/* 	height: 301px; */
+/* height: 301px !important; */
+	display:inline-block;
+	width: 19%;
+	margin: 0;
+	padding: 0 10px;
+	box-shadow: none;
+}
+
+.cardinner {
+	margin-top: 8%;
+	float: left;
+	width: 100%;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 2px 2px rgba(0, 0, 0, 0.15),
+		0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.15);
+}
+
+.cardimage {
+	float: left;
+	width: 100%;
+	position: relative;
+}
+
+.cardimage h5 {
+	font-family: 'Raleway', sans-serif!important;
+	font-weight: bold;
+	position: absolute;
+	float: left;
+	width: 100%;
+	text-align: center;
+	top: 45%;
+	color: #fff;
+}
+
+.overlay {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay2 {
+	background-color: transparent;
+}
+.card-body {
+	padding-top: 0px;
+	height: 36%;
+	float: left;
+	width: 100%;
+	padding: 15px;
+/* 	  word-wrap: break-word; */
+	word-wrap: normal;
+/* 	    white-space: nowrap; */
+	
+}
+.module-card {
+	height:48%;
+	padding-top: 0px;
+}
+
+ .card-title{
+	font-size: 14px;
+    color: blue;
+    font-weight: bold;
+    font-family: Georgia;
+    
+     display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -moz-box-orient: vertical;
+      -ms-box-orient: vertical;
+      box-orient: vertical;
+      -webkit-line-clamp: 2;
+      -moz-line-clamp: 2;
+      -ms-line-clamp:2;
+      line-clamp: 2;
+      overflow: hidden;
+}
+
+.card-title {
+/* 	margin:5px !important; */
+	margin: 5px 0 8px 0;
+}
+
+.module-content{
+	    width: 100%;
+}
+.card-body p {
+/* 	word-break: break-all; */
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -moz-box-orient: vertical;
+      -ms-box-orient: vertical;
+      box-orient: vertical;
+      -webkit-line-clamp: 3;
+      -moz-line-clamp: 3;
+      -ms-line-clamp: 3;
+      line-clamp: 3;
+/*       overflow: hidden; */
+	
+	color: #000;
+	text-align:left;
+	 overflow: hidden;
+	   width: 100%;
+	   
+}
+.card-body p span{
+    cursor:pointer;
+    color:blue;
+    display:inline;
+}
+.card-body a {
+	float: left;
+	width: 100% !important;
+}
+
+.sitecontainer {
+	margin: 0 auto;
+	max-width: 1440px;
+}
+
+.cardbtn{
+	    margin-left: -2%;
+  float:left;
+  width:145%;
+}
+.cardbtn a{
+	text-decoration:none;
+   float:left;
+   width:35% !important;
+}
+.cardbtn a:last-child{
+/*    float:right; */
+    margin-left: 6px;
+
+   
+}
+
+
+/* Added by Gulrez */
+
+  .overflow-ellipsis {
+    text-overflow: ellipsis;
+  }
+  
+  .overflow-string {
+    /* Not supported in most browsers,
+       see the 'Browser compatibility' section below */
+    text-overflow: " [..]";
+  }
+  
+  .meeting-label{
+  	padding-top: 10px;
+    padding-left: 9px;
+    font-weight: bold;
+    font-size: 17px;
+  }
+
+
+
+  
+  .menuzord-menu {
+	margin: 0;
+/* 	padding-left: 27px; */
+	float: left;
+	list-style: none
+}
+  .menuzord-menu>li.active>a, .menuzord-menu>li:hover>a {
+	color: #2eff08;
+}
+
+
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    background-color: #337ab7;
+}
+
+
+.wrapper {
+  margin: 100px;
+}
+#desc{
+	margin: 14px;
+    text-align: justify;
+}
+.cardbutton a{
+	text-decoration: none;
+}
+
+ .menuzord-menu .nav-tem a:first-child{
+	 margin-top: 19px;
+	   padding-right: 35px;
+}
+
+#logo{
+ 	   margin-top: 4px; 
+/* 	   padding-right: 35px;  */
+	   
+}
+.fa{
+    padding-right: 1px;
+}
+/* .navbar-nav .nav-tem a:first-child img{ */
+/* 	height: 53px; padding-top: 13px; */
+
+/* 	} */
